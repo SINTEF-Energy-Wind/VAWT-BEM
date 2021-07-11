@@ -1,0 +1,8 @@
+601  0.01                        !  Nt dt  (dt was 0.05 but this gave numerical instability in the tower torsion mode)
+20.  10.0  0.0001               !  Reference windspeed, rotor center height, surf. roughness
+3.52   0.0  0.0                  !  Initial control settings: gen. synch. speed, synch. ang., torque
+0.0  3.52   0.0  3.52            !  Initial head psi, omega; initial gen. psi, omega
+0.0  0.0  0.0                    !  Initial linear position of the turbine head
+0.0  0.0  0.0                    !     "       "   speed      "       "      "
+6200.0 0.0 0.0                   !  Initial rotor position in the turbulent windfield (wind coordinates).
+0.0 0.0 66.0                     !  Position of wind measurement, in rotor coordinates.
